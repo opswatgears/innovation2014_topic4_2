@@ -108,6 +108,7 @@ function GetTokenCode(code)
             token = data;
             document.getElementById("token_code").innerHTML = token_code;
             document.getElementById('login').style.display = 'none';
+            document.getElementById("loginLabel").style.display = 'none';
             GetDevices();
         },
         error: function(error){
