@@ -324,6 +324,13 @@ module.exports = [
         "clobbers": [
             "navigator.compass"
         ]
+    },
+    {
+        "file": "plugins/org.apache.cordova.inappbrowser/www/inappbrowser.js",
+        "id": "org.apache.cordova.inappbrowser.inappbrowser",
+        "clobbers": [
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -338,7 +345,8 @@ module.exports.metadata =
     "org.apache.cordova.file-transfer": "0.4.5-dev",
     "org.apache.cordova.contacts": "0.2.12-dev",
     "org.apache.cordova.device-orientation": "0.3.8-dev",
-    "org.apache.cordova.console": "0.2.10-dev"
+    "org.apache.cordova.console": "0.2.10-dev",
+    "org.apache.cordova.inappbrowser": "0.5.1-dev"
 }
 // BOTTOM OF METADATA
 });
