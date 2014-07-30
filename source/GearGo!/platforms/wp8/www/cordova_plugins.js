@@ -326,6 +326,17 @@ module.exports = [
         "clobbers": [
             "navigator.splashscreen"
         ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.toast/www/Toast.js",
+        "id": "nl.x-services.plugins.toast.Toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
+        "id": "nl.x-services.plugins.toast.tests"
     }
 ];
 module.exports.metadata = 
@@ -342,7 +353,8 @@ module.exports.metadata =
     "org.apache.cordova.file-transfer": "0.4.5-dev",
     "org.apache.cordova.inappbrowser": "0.5.0",
     "org.apache.cordova.network-information": "0.2.11-dev",
-    "org.apache.cordova.splashscreen": "0.3.2-dev"
+    "org.apache.cordova.splashscreen": "0.3.2-dev",
+    "nl.x-services.plugins.toast": "2.0"
 }
 // BOTTOM OF METADATA
 });

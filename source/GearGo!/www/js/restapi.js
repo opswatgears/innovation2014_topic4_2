@@ -30,6 +30,7 @@ function GetAccount(){
 
 function GetDevices()
 {
+    window.plugins.toast.showShortBottom("Getting devices list");
     window.scroll(0,0);
     document.getElementById("deviceSummery").style.display = 'none';
     var token_code = document.getElementById("token_code").innerHTML;
@@ -55,12 +56,19 @@ function GetDevices()
                 if (data[i].total_issue > 0) {
                     devicesGotIssue += 1;
                     hwid+='_1';
+                    devices += '<tr onclick="GetDeviceDetail(this.id)" id="'+ hwid + '"><td class="EachDevice">' + '<img src="' + img + '">' +data[i].hostname + '</td>' + '<td class="Issue">Issues: ' + data[i].total_issue +'</td></tr>';
                 }
-                else hwid += '_0';
-                devices += '<tr onclick="GetDeviceDetail(this.id)" id="'+ hwid + '"><td class="EachDevice">' + '<img src="' + img + '">' +data[i].hostname + '</td>' + '<td class="Issue">Issues: ' + data[i].total_issue +'</td></tr>';
+                else {
+                    hwid += '_0';
+                    devices += '<tr onclick="GetDeviceDetail(this.id)" id="'+ hwid + '"><td class="EachDevice">' + '<img src="' + img + '">' +data[i].hostname + '</td>' + '<td class="NoIssue">' + 'No issue' +'</td></tr>';
+                }
+                
             }
+            document.getElementById("NonIssue").style.display = 'inherit';
+            document.getElementById("Summery").style.display = 'inherit';
             document.getElementById("List").innerHTML = devices;
             document.getElementById("Summery").innerHTML = 'Devices have issues: ' + devicesGotIssue ;
+            document.getElementById("NonIssue").innerHTML = 'Devices have no issues: ' + (data.length-devicesGotIssue) ;
             document.getElementById("background").style.visibility = 'visible';
             document.getElementById("backButton").style.visibility = 'hidden';
             document.getElementById("background").style.backgroundColor = backgroundColor;
@@ -89,6 +97,7 @@ function GetElementInsideContainer(containerID, childID) {
 
 function GetDeviceDetail(id)
 {
+    window.plugins.toast.showShortBottom("Getting device's info");
     window.scroll(0,0);
     var token_code = document.getElementById("token_code").innerHTML;
     var splitId = id.split('_');
@@ -128,9 +137,15 @@ function GetDeviceDetail(id)
                 // get each category
                 var category = applications[i].category;
                 var apps = applications[i].apps;
+                var has_issue = applications[i].has_issue;
                 endstring += '<tr class="Row"><td class="EachDevice"> '+ category +' </td>';
-                var appstring = '<td  class="Issue">';
-                if (apps.length === 0) {
+                var appstring ;
+                if (has_issue > 0 || ( (category ==="Public File Sharing") && (apps.length === 0) ))
+                    appstring = '<td  class="Issue">';
+                else {
+                    appstring = '<td  class="NoIssue">';
+                }
+                if (apps.length === 0 ) {
                     appstring += 'No application detected';
                 }
                 for (j=0; j<apps.length; ++j) {
@@ -141,6 +156,8 @@ function GetDeviceDetail(id)
             }
             document.getElementById("List").innerHTML = endstring;
             document.getElementById("backButton").style.visibility = 'visible';
+            document.getElementById("NonIssue").style.display = 'none';
+            document.getElementById("Summery").style.display = 'none';
         },
         error: function(error){
             alert('error ' + JSON.stringify(error));

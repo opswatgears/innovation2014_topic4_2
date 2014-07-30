@@ -1,4 +1,4 @@
-C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-gen\com\coolappz\HTML5Application\R.java \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-gen\com\coolappz\GearGo\R.java \
  : C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\res\drawable\icon.png \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\res\drawable-hdpi\icon.png \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\res\drawable-hdpi\ic_action_next_item.png \

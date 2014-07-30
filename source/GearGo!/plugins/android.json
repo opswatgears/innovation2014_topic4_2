@@ -51,6 +51,10 @@
                         {
                             "xml": "<feature name=\"InAppBrowser\"><param name=\"android-package\" value=\"org.apache.cordova.inappbrowser.InAppBrowser\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Toast\"><param name=\"android-package\" value=\"nl.xservices.plugins.Toast\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -125,6 +129,9 @@
         },
         "org.apache.cordova.inappbrowser": {
             "PACKAGE_NAME": "com.coolappz.HTML5Application"
+        },
+        "nl.x-services.plugins.toast": {
+            "PACKAGE_NAME": "com.coolappz.GearGo"
         }
     },
     "dependent_plugins": {

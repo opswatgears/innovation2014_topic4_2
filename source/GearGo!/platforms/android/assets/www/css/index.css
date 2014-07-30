@@ -178,6 +178,19 @@ button {
     margin-left: 20px;
 }
 
+.NoIssue {
+    text-align: left;
+    width: 45%;
+    font-size: 28px;
+    padding: 0px;
+    color: black;
+    font-family: monospace; 
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 table tr:nth-child(odd) {
     background-color: #E0FFFF;
     border: 0px red;

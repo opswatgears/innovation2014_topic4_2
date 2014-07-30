@@ -188,6 +188,17 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/nl.x-services.plugins.toast/www/Toast.js",
+        "id": "nl.x-services.plugins.toast.Toast",
+        "clobbers": [
+            "window.plugins.toast"
+        ]
+    },
+    {
+        "file": "plugins/nl.x-services.plugins.toast/test/tests.js",
+        "id": "nl.x-services.plugins.toast.tests"
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -348,6 +359,7 @@ module.exports.metadata =
     "org.apache.cordova.dialogs": "0.2.9-dev",
     "org.apache.cordova.device-orientation": "0.3.8-dev",
     "org.apache.cordova.inappbrowser": "0.5.0",
+    "nl.x-services.plugins.toast": "2.0",
     "org.apache.cordova.file": "1.2.0"
 }
 // BOTTOM OF METADATA

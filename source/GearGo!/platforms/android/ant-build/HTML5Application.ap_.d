@@ -73,6 +73,7 @@ C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\js\jquery-2.1.1.min.js \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\js\jso.js \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\js\restapi.js \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\nl.x-services.plugins.toast \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.camera \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.contacts \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.device \
@@ -84,6 +85,10 @@ C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.inappbrowser \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.network-information \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.splashscreen \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\www \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\test\tests.js \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\nl.x-services.plugins.toast\www\Toast.js \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.camera\www \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\Camera.js \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\assets\www\plugins\org.apache.cordova.camera\www\CameraConstants.js \

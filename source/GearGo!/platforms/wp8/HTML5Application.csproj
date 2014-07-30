@@ -309,6 +309,9 @@
         <Compile Include="Plugins\org.apache.cordova.splashscreen\SplashScreen.cs" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Plugins\nl.x-services.plugins.toast\Toast.cs" />
+    </ItemGroup>
+    <ItemGroup>
         <Content Include="www\plugins\org.apache.cordova.camera\www\CameraConstants.js" />
     </ItemGroup>
     <ItemGroup>
@@ -448,6 +451,12 @@
     </ItemGroup>
     <ItemGroup>
         <Content Include="www\plugins\org.apache.cordova.splashscreen\www\splashscreen.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\nl.x-services.plugins.toast\www\Toast.js" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include="www\plugins\nl.x-services.plugins.toast\test\tests.js" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="www\cordova_plugins.js" />

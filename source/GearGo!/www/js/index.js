@@ -80,6 +80,7 @@ function clickFunction()
                 document.getElementById("code").innerHTML = code;
                 loginWindow.close();
                 GetTokenCode(code);
+                document.getElementById("Title").style.display = "none";
             }
         }
     });

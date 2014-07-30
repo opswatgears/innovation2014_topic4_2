@@ -1,4 +1,11 @@
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes.dex : \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\BuildConfig.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\HTML5Application.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\R$attr.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\R$drawable.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\R$string.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\R$xml.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\GearGo\R.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\BuildConfig.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\HTML5Application.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\R$attr.class \
@@ -6,6 +13,8 @@ C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\R$string.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\R$xml.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\com\coolappz\HTML5Application\R.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\nl\xservices\plugins\Toast$1.class \
+C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\nl\xservices\plugins\Toast.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener$1.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\org\apache\cordova\batterystatus\BatteryListener.class \
 C:\Work\Demo\innovation2014_topic4_2\source\GearGo!\platforms\android\ant-build\classes\org\apache\cordova\camera\CameraLauncher.class \
